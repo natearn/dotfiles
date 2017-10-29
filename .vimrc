@@ -24,8 +24,5 @@ set showcmd
 	command -count=4 Spaces set tabstop=<count> shiftwidth=<count> expandtab | retab
 	command -count=4 Tabs set tabstop=<count> shiftwidth=<count> noexpandtab | retab
 
-" use any syntax highlighting for .es6 files
-	au BufNewFile,BufRead *.es6 set filetype=javascript
-
 " clear the search pattern
 	command Clear let @/ = ""
